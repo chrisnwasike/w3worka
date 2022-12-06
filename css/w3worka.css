@@ -1,0 +1,154 @@
+
+.w3-bg-dark {
+  background-color: #001321;
+}
+
+@media (min-width: 768px)
+{
+  .navbar-expand-md .navbar-nav .nav-link
+  {
+    padding: 10px 15px;
+  }
+}
+
+.nav-link {
+    display: block;
+    font-size: 18px;
+    color: #cfcfcf;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #00e3b4;
+}
+
+.btn-nav {
+  display: block;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border: 1px solid #00e3b4;
+  border-radius: 2px;
+  padding: 15px 25px;
+  background-color: transparent;
+  margin-left: 20px;
+  color: #cfcfcf;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.btn-nav:focus, .btn-nav:hover {
+  background-color: #00e3b4;
+  color: #001321;
+}
+
+.btn-nav-full {
+  display: block;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border: 1px solid #00e3b4;
+  border-radius: 2px;
+  padding: 15px 25px;
+  background-color: #00e3b4;
+  margin-left: 20px;
+  color: #001321;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.btn-nav-full:focus, .btn-nav-full:hover {
+  background-color: transparent;
+  color: #cfcfcf;
+}
+
+
+
+
+.masthead {
+  background-color: #001321;
+  padding: 70px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+.mastbg {
+  background-image: url('../img/mastbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.innermast {
+  padding-bottom: 100px;
+}
+
+.benefits {
+  background-color: #011a2d;
+  padding: 110px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.action {
+  background-color: #001321;
+  padding: 100px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.faq {
+  background-color: #011a2d;
+  padding: 100px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+.btn-primary {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border: 1px solid #00e3b4;
+  border-radius: 2px;
+  padding: 15px 25px;
+  background-color: #00e3b4;
+  color: #001321;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+.btn-primary:focus, .btn-primary:hover {
+  border: 1px solid #00e3b4;
+  background-color: transparent;
+  color: #cfcfcf;
+}
+
+a {
+  color: #00e3b4;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+.border-primary {
+    border-color: #00e3b4!important;
+}
+.text-primary {
+  color: #00e3b4!important;
+}
+
+.accordion-button {
+  color: #ffffff;
+  background-color: #011a2d;
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+    color: #f8f9fa;
+    background-color: #011a2d;
+}
+.accordion-item {
+  color: #ffffff;
+  background-color: #04253d;
+}
